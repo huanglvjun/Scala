@@ -45,7 +45,7 @@ object list_Ops {
                                                   //> result2  : Array[Int] = Array(4)
    c.filter(_ % 2 == 0).map(_ * 2)                //> res18: Array[Int] = Array(4)
    c.sum                                          //> res19: Int = 6
-   val d = ArrayBuffer(1, 7, 3)                   //> d  : scala.collection.mutable.ArrayBuffer[Int] = ArrayBuffer(1, 7, 3)
+   val d = ArrayBuffer(1, 7, 3, 4)                   //> d  : scala.collection.mutable.ArrayBuffer[Int] = ArrayBuffer(1, 7, 3)
    val dSorted = d.sorted                         //> dSorted  : scala.collection.mutable.ArrayBuffer[Int] = ArrayBuffer(1, 3, 7)
                                                   //| 
    scala.util.Sorting.quickSort(c)
