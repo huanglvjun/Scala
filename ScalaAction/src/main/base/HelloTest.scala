@@ -4,6 +4,7 @@
 object HelloTest {
   def main(args: Array[String]) {
     println("Hello scala!")
+    println("Hello spark!")
   }
 
 }
